@@ -1,9 +1,9 @@
 import { useSelector,useDispatch } from "react-redux";
-import {changeCounter} from '../store';
+import {changeCounter} from '../store02';
 
 function Cart02(){
   let state = useSelector((state)=>state);
-  // console.log(state)
+  console.log(state)
   let dispatch = useDispatch();
 
   return(

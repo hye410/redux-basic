@@ -7,7 +7,7 @@ let num = createSlice({
     changeNum(state,action){
       // console.log(state)
      return  state += action.payload;
-   //payload : action에서 넘어온 값을 받음
+   //payload : action으로 넘어온 값을 받음
     }
   }
 });
